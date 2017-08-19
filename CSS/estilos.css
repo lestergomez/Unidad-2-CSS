@@ -18,8 +18,8 @@ h1.titulo{
 	padding: 10px;
 }
 footer{
-	border-top: 1px;
-	border-top-color: black;
+	border-top: solid 1px black;
+	
 	padding-top: 10px;
 	text-align: center;
 }
