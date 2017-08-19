@@ -1,10 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
+body p
+	{
+	color:green;
+	}
+p
+	{
+		color:blue;
+	}
 body{
 	background-color: black;
 	font-family: Verdana;
-	color: white;
+	color: white !important;
+	
 	}
 h1  {
 	font-family: arial;
@@ -19,4 +28,8 @@ h1  {
 		
 	color: white;
 
+	}
+body{
+	
+	color: red;
 	}
