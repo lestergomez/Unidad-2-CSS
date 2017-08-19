@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 20px;
+	font-family: Verdana;
+	
+}
+.resaltado{
+	background-color: yellow;
+}
+#menu-principal{
+	padding: 10px 0px;
+}
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}
+footer{
+	border-top: 1px;
+	border-top-color: black;
+	padding-top: 10px;
+	text-align: center;
+}
