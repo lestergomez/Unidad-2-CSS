@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Formulario</title>
+<link rel="stylesheet" href="CSS/formulario.css">
+</head>
+
+<body>
+	<h1>Registro en nuestra Tienda</h1>
+<form action>
+  <p>
+	<label for="nombreusuario">Nombre de usuario</label>
+	<input type="text" name="nombreusuario" placeholder="Su nombre" required autofocus>
+  </p>
+	
+  <p>
+	<label for="email">Email</label>
+	<input type="email" name="email" placeholder="correo@sucorreo.com" required>
+  </p>
+  <p>
+	<label for="edad">Edad</label>
+    <input type="number" name="edad" placeholder="Su edad" required>
+  <p>
+  
+  <p>
+	<label for="nacimiento">Fecha de naciento</label>
+    <input type="date" name="nacimiento" >
+  <p>
+  
+  <label for="Genero">Genero</label> <br>
+  <label>
+	    <input type="checkbox" name="Genero" value="checkbox" id="Genero_0">
+	    Masculino
+  </label> <br>
+  <label>
+	    <input type="checkbox" name="Genero" value="checkbox" id="Genero_1">
+	    Femenino
+  </label>
+  </p>
+  
+  <p>
+    <label for="recomendado">Recomendado por</label><br>
+
+    <select name="recomendado">
+	  <option value="1">Google</option>
+	  <option value="1">amigo </option>
+	  <option value="1">redes sociales</option>
+    </select>
+  </p>
+  <p>
+    <label for="comentario">Comentario</label><br>
+    <textarea name="comentario" id cols="30" rows="3"></textarea>
+  </p>
+   <p>
+     <label for="terminos">Acepto terminos y condiciones</label>
+     <input type="checkbox" name="terminos">
+   </p>
+     <input type="submit" value="Enviar" name="enviar">
+</form>
+</body>
+</html>

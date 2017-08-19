@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 20px;
+	font-family: verdana;
+}
+
+p 
+	{
+	width: 200px;
+	}
+
+p,label
+	{
+	font-family: tahoma;
+	}
+
+p:nth-child(3) {
+	color: red;
+}
+input[name^=email]{
+	background-color: #eeeeee;
+}
