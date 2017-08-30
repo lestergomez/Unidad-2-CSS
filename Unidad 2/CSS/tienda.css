@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenedor{
+	
+display: flex;
+flex-direction: row;
+	
+}
+
+#contenido .producto {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 50%;
+}
+#destacados{
+	background-color: darkcyan;
+	text-align: center;
+	height: 150px;
+}
+#destacados .contenedor > div {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+}
+
+#ofertas{
+	background-color: burlywood;
+	text-align: center;
+	height: 150px;
+}
+#ofertas .contenedor > div {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 33.3%;
+	box-shadow: 4px 8px;
+
+
+}
+
+#ofertas h1{
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
+#disponible{
+	background-color: coral;
+	text-align: center;
+	height: 150px;
+	
+}
+#disponible .contenedor > div {
+text-align: center;
+padding: 10px;
+border: solid 5px coral;
+background-color: white;
+width: 25%;
+	box-shadow: 3px 5px #D46A6A;
+}
+h1{
+	padding-top: 25px;
+	text-shadow: 0 0 3px white;
+	}
+body h1{
+	padding-top: 0px;
+}

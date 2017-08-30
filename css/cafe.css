@@ -2,21 +2,13 @@ body {
 	font-family: Verdana;
 	width: 90%;
 	margin-left: 5%;
-
+	font-size: 18px;
+	color: blue;
 }
 
-header {
-	padding: 1vh 1vw;
-	margin-bottom: 1vh;
-}
-
-#contenido{
-	margin: 1%;
-	text-align: center;
-}
 #resumen{
-		display: none;
-	}
+	display: none;
+}
 
 @media (min-width: 600px) {
 
@@ -29,12 +21,24 @@ header {
 		display: block;
 	}
 }
-@media(min-width:900px){
-	body{
-		color: black;
+
+@media (min-width: 900px) {
+	body {
 		font-size: 14px;
+		color: black;
 	}
 }
+
+header {
+	padding: 1vh 1vw;
+	margin-bottom: 1vh;
+}
+
+#contenido{
+	margin: 1%;
+	text-align: center;
+}
+
 header h1 {
 	padding-left: 1%;
 	font-size: 1.5em;
@@ -48,15 +52,6 @@ footer {
 	text-align: center;
 }
 
-.adaptativa-porcentaje{
-	width:90%;
-}
-.adaptativa-porcentaje-1{
-	width: 70%;
-}
-.adaptativa-porcentaje-2{
+img {
 	width: 50%;
-}
-.adaptativa-porcentaje-3 {
-	width: 20%;
 }
