@@ -40,19 +40,52 @@ figure img {
 }
 
 #imagen1{
-	-ms-transform: rotate(7deg);
-	-webkit-transform: rotate(7deg);
-	transform: rotate(7deg);
+	 perspective:2000;
+	-webkit-perspective:2000;
+	
+	
+	
 }
+#imagen1 img:hover{
+	border: solid 4px black;
+	
+}
+#imagen1 img{
+	transform: rotateY(40deg);
+	
+	transition: border 4s;
+	
+	
+}
+
 #imagen2{
-	-ms-transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
+	perspective: 3000;
+	-webkit-perspective:3000;
+	
+	
+	
+}
+
+#imagen2 img{
+	opacity: 0.1;
+	transform: rotateY(-30deg);
+	transition: opacity 1s;
+	
+}
+#imagen2 img:hover{
+	opacity: 1;
 }
 #imagen3{
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	transform: rotate(-10deg);
+	perspective: 100;
+	-webkit-perspective:3000;
+
+}
+#imagen3 img{
+	transition: width 0.5s;
+	transform: rotateX(40deg);
+}
+#imagen3 img:hover{
+	width: 60%;
 }
 
 
